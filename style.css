@@ -1,0 +1,101 @@
+
+body {
+    margin: 0;
+    padding:0;
+    background-image: linear-gradient(to bottom,white 90%,black);
+    background-repeat: no-repeat;
+    height: 100vh;    
+    
+}
+
+@font-face {
+    font-family: 'iknowaghost';
+    src: url(iknowaghost.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'strangerThings';
+    src: url(StrangerThings-Regular.ttf) format('truetype');
+    font-weight: normal;
+    
+
+}
+
+
+
+.moldura {
+    background-image: linear-gradient(to bottom, black, white);
+    width:100%;
+    height:50px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'strangerThings';
+    font-size: 2.2em;
+    margin: 0 20px 20px 20px;
+    
+}
+
+article {
+    font-family: 'strangerThings';    
+    text-align: justify;
+    font-size: 16px;
+    margin: 0 20px 0 20px;
+    margin-bottom: 20px;
+    font-weight: normal;
+
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.botao {
+    width: 130px;
+    height: 30px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+    
+    
+}
+.botao:hover {
+    color: white;
+    background-color: #0829366d;
+    border: 1px white;
+}
+
+.voltar {
+    display: none;
+    width: 130px;
+    height: 30px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+    
+}
+img {
+    text-align: center;
+    margin:0;
+    padding: 0;
+    
+}

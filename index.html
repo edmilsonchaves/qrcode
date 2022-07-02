@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Gerar QR Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="moldura"></div>
+    <div class="container">
+        
+        <h1>Crie seu QR Code</h1>
+        <article>Rápido e fácil, cole o link ou texto que deseja para criar seu QR Code.</article>
+        <textarea cols="38" rows="5" placeholder="Insira seu link aqui!" ></textarea>       
+        <br>
+        <div id="botoes">
+            <input onclick="gerarQRCode()"class="botao qrcode" type="button" value="Gerar QR Code">
+            <input onclick="voltarQRCode()" class="voltar" type="button" value="Voltar / Refazer" download="conteudoQRCode"> </input>
+        </div>  
+        <div>
+            <img id="qrcodeImage">
+        </div>                
+    </div>
+     
+        
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
