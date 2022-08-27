@@ -62,7 +62,7 @@ textarea {
     max-width: 400px;
     height: 150px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 10px;
+    padding: 10px;
     border-radius: 5px;
 
 }
@@ -80,7 +80,7 @@ textarea {
 }
 .botao:hover {
     color: white;
-    background-color: #0829366d;
+    background-color: dodgerblue;
     border: 1px white;
 }
 
@@ -107,3 +107,32 @@ img {
     width: 300px;
 
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 30px;
+    line-height: 10%;    
+    font-family: 'strangerThings';
+}
+
+footer > a > img {
+    margin-bottom: -5px;    
+    width: 20px;
+
+    
+}
+footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+footer a:hover {
+    color: dodgerblue;
+    transition-duration: 0.2s;
+}
+
